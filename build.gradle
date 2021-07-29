@@ -1,0 +1,28 @@
+plugins {
+    id 'java'
+}
+
+group 'org.example'
+version '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+
+    testCompile 'net.serenity-bdd:serenity-core:1.9.9'
+    testCompile 'net.serenity-bdd:serenity-junit:1.9.9'
+    testCompile 'net.serenity-bdd:serenity-cucumber:1.9.5'
+    testCompile 'net.serenity-bdd:serenity-screenplay:1.9.9'
+
+    compile 'net.serenity-bdd:serenity-core:1.9.9'
+    compile 'net.serenity-bdd:serenity-junit:1.9.9'
+    compile 'net.serenity-bdd:serenity-screenplay-rest:1.9.17'
+    compile 'net.serenity-bdd:serenity-cucumber:1.9.5'
+    compile 'net.serenity-bdd:serenity-screenplay:1.9.9'
+    compile group: 'org.json', name: 'json', version: '20180813'
+
+
+}
+

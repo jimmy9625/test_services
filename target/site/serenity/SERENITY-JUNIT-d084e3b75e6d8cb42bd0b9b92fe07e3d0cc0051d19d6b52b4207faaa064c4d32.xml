@@ -1,0 +1,1 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="0" name="request find single User" skipped="0" tests="2" time="11.29" timestamp="2021-07-28 11:43:37"><testcase name="user search successful"/><testcase name="user no found"/></testsuite>
